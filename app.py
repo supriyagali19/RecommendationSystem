@@ -31,7 +31,7 @@ def load_models_and_data():
     )
 
     # Load data from CSV
-    file_path = "./data_science_resources.csv"
+    file_path = "./Data.csv"
     loader = CSVLoader(file_path=file_path)
     data = loader.load()
 
